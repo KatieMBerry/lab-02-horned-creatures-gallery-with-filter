@@ -12,7 +12,26 @@ body {
   align-items: center;
 }
 
+.creature-article {
+  background-color: pink;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
 
+/* .images {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.horned-creature {
+  width: 200px;
+  height: 200px;
+}
 
 
 

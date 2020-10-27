@@ -5,10 +5,11 @@ export default class ImageItem extends React.Component {
     render() {
         return (
             <div className="creature-article">
-                <div>{images[0].title}</div>
-                <img className="horned-creature" src={images[0].url} alt="horned-creature" />
-                <p>{images[0].description}.</p>
-                <div>A {images[0].keyword} has {images[0].horns} horn(s).</div>
+                {/* <img {this.props.image} /> */}
+                <div>{this.props.title}</div>
+                <div>{this.props.description}</div>
+                <div>{this.props.keyword}</div>
+                <div>{this.props.horns}</div>
             </div>
         )
     }
