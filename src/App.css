@@ -3,30 +3,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: plum;
 }
 
 .header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-size: 25px;
+  font-family: cursive;
+  height: 50px;
+  width: 100%;
+  background-color: plum;
 }
 
 .creature-article {
-  background-color: pink;
+  background-color: black;
   width: 400px;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 10px;
+  color: plum;
 }
-
-/* .images {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 .horned-creature {
   width: 200px;
