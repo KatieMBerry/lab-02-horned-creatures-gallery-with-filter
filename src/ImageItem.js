@@ -1,15 +1,13 @@
 import React from 'react';
-import images from './data.js';
 
 export default class ImageItem extends React.Component {
     render() {
         return (
             <div className="creature-article">
-                {/* <img {this.props.image} /> */}
                 <div>{this.props.title}</div>
+                <img src={this.props.image} className="horned-creature" alt="horned-creature" />
                 <div>{this.props.description}</div>
-                <div>{this.props.keyword}</div>
-                <div>{this.props.horns}</div>
+                <div>{this.props.keyword}s have {this.props.horns} horn(s).</div>
             </div>
         )
     }
